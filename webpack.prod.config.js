@@ -1,7 +1,7 @@
-const merge  = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const CSSMinimiserWebpackPlugin = require('css-minimizer-webpack-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
-cnst common = require('webpack.common.config');
+const common = require('./webpack.common.config');
 
 module.exports = merge(common, {
 
