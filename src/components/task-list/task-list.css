@@ -1,0 +1,33 @@
+.all-tasks-list {
+    padding-left: 0;
+}
+
+.task-item:first-child,
+.task-item:last-child {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.task-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.task-main {
+    display: flex;
+    align-items: center;
+}
+
+.task-item-title {
+    width: 80%;
+}
+
+.task-item-id,
+.task-item-user-id,
+.task-item-title {
+    margin-right: 1rem;
+}

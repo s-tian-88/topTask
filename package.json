@@ -6,7 +6,7 @@
     "test": "jest",
     "build": "webpack --config webpack.dev.config",
     "build:prod": "webpack --config webpack.prod.config",
-    "start": "webpack serve --config webpack.prod.config"
+    "start": "webpack serve --config webpack.dev.config"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
