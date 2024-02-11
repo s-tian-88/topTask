@@ -1,0 +1,15 @@
+export default class Field {
+
+  constructor(container) {
+    console.log(container)
+    if (!(constructor instanceof HTMLElement)) {
+      throw new Error('Container is not HTMLElement!');
+    }
+    this.container = container;
+  };
+
+  createField () {
+    fieldElement = document.createElement('div');
+    fieldElement.classList.add('field')
+  }
+}

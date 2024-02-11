@@ -1,0 +1,11 @@
+body {
+    font: 1.2rem 'Fira Sans', sans-serid;
+}
+
+.tasks-container {
+    border-radius: 10px;
+    background-color: rgba(122, 134, 112, 0.3);
+    border: 2px solid black;
+    width: 20%;
+    margin: 0 auto;
+}
